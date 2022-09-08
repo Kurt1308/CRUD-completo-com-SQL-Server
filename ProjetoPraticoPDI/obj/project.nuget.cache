@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GVn2ec5ASpUt362hDiBR8weKLKNifaxugCGj1+UKNrej1Iz9riGXNdX/m6TLiLRKgxk+OzHh7j0UTMGAnI5QiQ==",
+  "dgSpecHash": "/lRjiQ0f6C5cw3xtdTq8EiWReC/9ZkipAWnQ0l9L2/n0O5j0UNgQkwwoNP5GURMO0Smccc7VOLTMxYCSkjhm4g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lucas.dias\\Desktop\\ProjetoPraticoPDI\\ProjetoPraticoPDI\\ProjetoPraticoPDI.csproj",
+  "projectFilePath": "C:\\Users\\lucas.dias\\ProjetoPraticoPDI\\ProjetoPraticoPDI\\ProjetoPraticoPDI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lucas.dias\\.nuget\\packages\\documentformat.openxml\\2.17.1\\documentformat.openxml.2.17.1.nupkg.sha512",
     "C:\\Users\\lucas.dias\\.nuget\\packages\\documentformat.openxmlsdk\\2.0.0\\documentformat.openxmlsdk.2.0.0.nupkg.sha512",
