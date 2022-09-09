@@ -4,14 +4,12 @@
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-//import GetPessoas from './components/GetPessoas.vue';
+import GetPessoas from './components/GetPessoas.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
-    //GetPessoas
+    GetPessoas
 }
 }
 </script>
