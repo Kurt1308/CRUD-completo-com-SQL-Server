@@ -45,19 +45,15 @@ export default {
     }
   },
   methods: {
-    lista: () => {
-        // axios.get('https://localhost:7060/ProjetoPraticoPDI/GetPessoas').then((res)=>{
-        //     console.log("Oiiiiii")
-        //     console.log(res)
-        //     scope.pessoas = res.data
-        // })
-        axios.get('https://localhost:7060/ProjetoPraticoPDI/GetPessoaById?id=1')
+    lista: (scope) => {
+        axios.get('https://localhost:7060/ProjetoPraticoPDI/GetPessoas')
   .then((response) => {
     console.log(response.data);
     console.log(response.status);
     console.log(response.statusText);
     console.log(response.headers);
     console.log(response.config);
+    scope.pessoas = response.data;
   })
     }    
   },
