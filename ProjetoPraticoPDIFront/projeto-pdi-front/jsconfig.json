@@ -2,7 +2,7 @@
   "compilerOptions": {
     "target": "es5",
     "module": "esnext",
-    "baseUrl": "./",
+    "baseUrl": "./https://localhost:7060/ProjetoPraticoPDI",
     "moduleResolution": "node",
     "paths": {
       "@/*": [

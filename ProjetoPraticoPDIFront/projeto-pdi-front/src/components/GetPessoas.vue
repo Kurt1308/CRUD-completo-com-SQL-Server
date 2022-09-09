@@ -45,12 +45,20 @@ export default {
     }
   },
   methods: {
-    lista: (scope) => {
-        axios.get('https://localhost:7060/ProjetoPraticoPDI/GetPessoas').then((res)=>{
-            console.log("Oiiiiii")
-            console.log(res)
-            scope.pessoas = res.data
-        })
+    lista: () => {
+        // axios.get('https://localhost:7060/ProjetoPraticoPDI/GetPessoas').then((res)=>{
+        //     console.log("Oiiiiii")
+        //     console.log(res)
+        //     scope.pessoas = res.data
+        // })
+        axios.get('https://localhost:7060/ProjetoPraticoPDI/GetPessoaById?id=1')
+  .then((response) => {
+    console.log(response.data);
+    console.log(response.status);
+    console.log(response.statusText);
+    console.log(response.headers);
+    console.log(response.config);
+  })
     }    
   },
   created() {
