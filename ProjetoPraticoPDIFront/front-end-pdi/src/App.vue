@@ -1,18 +1,22 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <HeaderApp />
+    <img alt="Vue logo" src="./assets/B2logo.png">
+    <TituloProjeto msg="Projeto prático PDI"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import TituloProjeto from './components/TituloProjeto.vue';
+import './styles/global.css';
+import HeaderApp from './components/HeaderApp.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    TituloProjeto,
+    HeaderApp,
+}
 }
 </script>
 
