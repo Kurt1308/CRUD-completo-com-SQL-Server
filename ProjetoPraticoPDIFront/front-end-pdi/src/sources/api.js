@@ -1,7 +1,7 @@
 import axios  from 'axios';
 
 const api = axios.create({
-    baseURL:"https://raw.githubusercontent.com/william-costa/wdev-mock-site-resources/master/api"
+    baseURL:"https://localhost:7060/swagger/v1/swagger.json"
 });
 
 export default api;
