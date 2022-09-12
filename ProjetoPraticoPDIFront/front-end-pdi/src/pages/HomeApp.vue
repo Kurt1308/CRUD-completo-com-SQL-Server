@@ -1,6 +1,7 @@
 <template>
     <main>
-        
+        <button>OIOIOIO</button> 
+        <button>   </button>   
     </main>   
 </template>
 

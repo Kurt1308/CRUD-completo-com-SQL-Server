@@ -3,6 +3,7 @@
     <HeaderApp />
     <img alt="Vue logo" src="./assets/B2logo.png">
     <TituloProjeto msg="Projeto prático PDI"/>
+    <router-view path="$router.key" />
   </div>
 </template>
 
