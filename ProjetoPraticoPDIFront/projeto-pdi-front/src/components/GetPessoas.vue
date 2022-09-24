@@ -3,7 +3,7 @@
     class="container col-lg-2 col-md-3 col-sm-4 col-xs-6"
     style="text-align: center"
   >
-    <img src="@/assets/B2logo.png" alt="Paris" class="center" />
+    <img src="@/assets/logo.png" alt="Paris" class="center" />
     <h1>{{ msgPessoas }}</h1>
     <table align="center">
       <thead>
